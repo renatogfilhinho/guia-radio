@@ -1,7 +1,6 @@
 ### Guia-radio.
 
-#### Guia-radio é uma solução divertida dada a um amigo que queria ouvir a rádio Antena1 de forma automática 
-#### seguindo os horários pré determinados de entrada, almoço, volta almoço e saída.
+#### Guia-radio é uma solução divertida dada a um amigo que queria ouvir a rádio Antena1 seguindo os horários sa sua linha de produção.
 
 
 - Instalar pacotes necessários
