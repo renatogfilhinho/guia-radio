@@ -1,4 +1,4 @@
-### Guia-radio é uma solução dada a um amigo, que queria ouvir a rádio Antena1 de forma automática \
+### Guia-radio é uma solução dada a um amigo, que queria ouvir a rádio Antena1 de forma automática \n
 seguindo os horários pré determinados
 
 
