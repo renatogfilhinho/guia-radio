@@ -53,6 +53,7 @@ systemctl enable mpv-antena1.service && systemctl daemon-reload
 crontab -e
 ```
 ```ini
+...
 # m h  dom mon dow   command
 0 8 * * 1-5 systemctl start mpv-antena1.service
 0 12 * * 1-5 systemctl stop mpv-antena1.service
