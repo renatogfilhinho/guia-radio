@@ -25,5 +25,5 @@ chgrp -R antena1 /opt/antena1 && chown -R antena1 /opt/antena1
 ```sh
 usermod -aG audio antena1
 ```
-- 
+- Criar o arquivo que será o serviço a ser executado
 
