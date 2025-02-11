@@ -4,6 +4,9 @@
 
 
 - Instalar pacotes necessários
+```sh
+sudo apt install mpv alsa-utils
+```
 - Criar diretório /opt/antena1 (substitua antena1 pela sua rádio)
 ```sh
 sudo mkdir /opt/antena1
