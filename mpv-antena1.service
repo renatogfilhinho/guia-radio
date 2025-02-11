@@ -1,5 +1,5 @@
 [Unit]
-Description=MPlayer Radio Service for Antena1
+Description=MPV Radio Service for Antena1
 
 [Service]
 ExecStart=/usr/bin/mpv -playlist /opt/antena1/listen-radio.m3u
