@@ -44,5 +44,9 @@ ExecStartPre=/bin/sleep 2
 [Install]
 WantedBy=multi-user.target
 ```
+- Habilite o serviço e recarregue o Systemd
+```sh
+systemctl enable mpv-antena1.service && systemctl daemon-reload
+```
 
 
