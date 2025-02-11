@@ -10,5 +10,8 @@ sudo mkdir /opt/antena1
 ```
   
 - Criar o usuário que executará o serviço (antena1)
+```sh
+sudo adduser --disabled-login --no-create-home antena1
+```
 - Atribuir permissões ao usuário antena1 para o diretório /opt/antena1
 - 
