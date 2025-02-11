@@ -28,5 +28,21 @@ usermod -aG audio antena1
 - Criar o arquivo que será o serviço a ser executado
 ```sh
 touch /etc/systemd/system/mpv-antena1.service
-``` 
+```
+- Insira o seguinte conteúdo ao arquivo mpv-antena1.service
+```ini
+[Unit]
+Description=MPV Radio Service for Antena1
+
+[Service]
+ExecStart=/usr/bin/mpv -playlist /opt/antena1/listen-radio.m3u
+Restart=always
+WorkingDirectory=/opt/antena1
+User=antena1
+ExecStartPre=/bin/sleep 2
+
+[Install]
+WantedBy=multi-user.target
+```
+
 
