@@ -1,6 +1,8 @@
 ### Guia-radio.
 
-#### Guia-radio é uma solução divertida dada a um amigo que queria ouvir a rádio Antena1 seguindo os horários sa sua linha de produção.
+#### Guia-radio é uma solução divertida dada a um amigo que queria ouvir a rádio Antena1 seguindo os horários da sua linha de produção.
+
+O processo foi feito em um servidor Proxmox (Não é indicado, mas ele queria), onde sua base é o Debian.
 
 
 - Instalar pacotes necessários
