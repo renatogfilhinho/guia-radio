@@ -1,0 +1,13 @@
+[Unit]
+Description=MPlayer Radio Service for Antena1
+
+[Service]
+ExecStart=/usr/bin/mpv -playlist /opt/antena1/listen-radio.m3u
+Restart=always
+WorkingDirectory=/opt/antena1
+User=antena1
+ExecStartPre=/bin/sleep 2
+
+[Install]
+WantedBy=multi-user.target
+
