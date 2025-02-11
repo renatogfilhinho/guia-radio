@@ -17,4 +17,12 @@ sudo mkdir /opt/antena1
 sudo adduser --disabled-login --no-create-home antena1
 ```
 - Atribuir permissões ao usuário antena1 para o diretório /opt/antena1
+```sh
+sudo chgrp -R antena1 /opt/antena1 && sudo chown -R antena1 /opt/antena1
+```
+- Incluir o usuário antena1 ao grupo audio
+```sh
+sudo usermod -aG audio antena1
+```
 - 
+
