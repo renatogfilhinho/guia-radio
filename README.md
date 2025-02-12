@@ -2,7 +2,7 @@
 
 #### Guia-radio é uma solução divertida dada a um amigo que queria ouvir a rádio Antena1 seguindo os horários da sua linha de produção.
 
-O processo foi feito em um servidor Proxmox onde sua base é o Debian, como root.
+O processo foi feito em um servidor Proxmox, que possui base Debian, como root.
 
 
 - Instalar pacotes necessários
