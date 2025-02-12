@@ -6,7 +6,7 @@ O processo foi feito em um servidor Proxmox, que possui base Debian, como root.
 
 
 - Instalar pacotes necessários
-```bash
+```sh
 apt install mpv alsa-utils
 ```
 - Criar diretório /opt/antena1 (substitua antena1 pela sua rádio)
